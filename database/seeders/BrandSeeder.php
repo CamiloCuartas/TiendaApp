@@ -17,14 +17,12 @@ class BrandSeeder extends Seeder
     {
         DB::table('brands')->insert([
             [
-                'reference' => 'B01',
-                'name' => 'Kimberly',
+                'providerName' => 'Kimberly',
                 "created_at" =>  Carbon::now(),
                 "updated_at" => Carbon::now()
             ],
             [
-                'reference' => 'B02',
-                'name' => 'Drypers',
+                'providerName' => 'Drypers',
                 "created_at" =>  Carbon::now(),
                 "updated_at" => Carbon::now()
             ]
